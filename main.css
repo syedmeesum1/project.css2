@@ -1,0 +1,70 @@
+/*background
+font size and font family change krne ke lie*/
+body {
+
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(233, 203, 158);
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+/*nav bar ka background color font size 
+oe text align ko center me kia gaya ha */ 
+nav {
+    background-color:blanchedalmond;
+}
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color:white;
+}
+/*no display tag*/
+p.one{
+    display:none;
+}
+form{
+    float: right;
+}
+div .two{
+    text-align: left;
+}
+p{
+    text-align:right;
+}
+div{
+    text-align: center;
+    color: #333;
+    
+}
+div.one :hover{
+background-color: #b4b4b4;
+}
+/*footer tag styling*/
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: left;
+    padding: 20px 0;
+  
+    bottom: 0;
+    width: 100%;
+  }
+ 
